@@ -1,0 +1,15 @@
+#Write a Python program to find distance between two points.
+import math
+
+print("Enter coordinates of first point:")
+x1 = float(input("x1 = "))
+y1 = float(input("y1 = "))
+
+print("\nEnter coordinates of second point:")
+x2 = float(input("x2 = "))
+y2 = float(input("y2 = "))
+
+# Distance formula
+distance = math.sqrt((x2 - x1)**2 + (y2 - y1)**2)
+
+print("\nDistance between the two points =", distance)
