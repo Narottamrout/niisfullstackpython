@@ -13,4 +13,6 @@ print(s.isdigit())
 #is lower function
 s="b"
 print(s.islower())
+#true
 print(s.isupper())
+#false
