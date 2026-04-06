@@ -1,4 +1,4 @@
-# create atest file and write data inside it
+# create a test file and write data inside it
 # f=open("data.txt","w")
 # f.write("ram is a good boy\n")
 # f.write("hi bye\n")
@@ -69,9 +69,8 @@
 # f=open("xyz.data","wb")
 # pickle.dump(numbers,f)
 # f.close()
-
-import pickle
-
-f=open("xyz.data","rb")
-l=pickle.load(f)
-f.close()
+  
+# import pickle
+# f=open("xyz.data","rb") 
+# l=pickle.load(f)
+# f.close()
