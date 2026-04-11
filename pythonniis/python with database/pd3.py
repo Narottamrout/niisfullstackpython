@@ -5,4 +5,4 @@ cur.execute("SELECT * FROM student")
 rows=cur.fetchall()
 for r in rows:
 	print(r)
-conn.close()	
+conn.close() 	
